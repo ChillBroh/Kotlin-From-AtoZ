@@ -10,7 +10,8 @@ class Bird constructor(
      var color = "Green"
  }
 class Box:Shape(){
+
     fun myFunction(){
-        println(color)
+        println("I am the child Box my parent color is $color")
     }
 }
