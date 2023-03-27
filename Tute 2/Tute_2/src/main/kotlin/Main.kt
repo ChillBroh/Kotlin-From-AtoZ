@@ -7,4 +7,8 @@ fun main(args: Array<String>){
 
     println(b1.type)
     println(b1.color)
+
+    //create object from child
+    val c1 = Parrot();
+    c1.color;
 }
