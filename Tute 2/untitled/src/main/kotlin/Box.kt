@@ -10,7 +10,7 @@ class Box{
         print("Box is filled")
     }
 
-    fun ope(){
+    fun open(){
         print("Box is Open")
     }
 
