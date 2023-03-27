@@ -1,8 +1,10 @@
-     interface Vehicle {
+package interfaces
+
+interface Vehicle {
          fun start()
          fun stop()
      }
-     class Car:Vehicle{
+     class Car: Vehicle {
          override fun start() {
              println("Vehicle started")
          }
