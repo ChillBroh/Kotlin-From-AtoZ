@@ -1,5 +1,6 @@
 package com.example.calculator
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -32,5 +33,13 @@ class MainActivity : AppCompatActivity() {
         }
         println(ans)
 
+        val intent = Intent(this, DisplayActivity::class.java)
+        intent.putExtra("answer", ans)
+        startActivity(intent)
+        finish()
+
+
     }
+
+
 }
