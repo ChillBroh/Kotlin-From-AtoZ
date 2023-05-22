@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/second_background"
     android:orientation="vertical"
     tools:context=".DisplayActivity">
 
@@ -22,13 +23,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/TxtAnswerShow"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="108dp"
         android:layout_marginTop="216dp"
         android:layout_marginEnd="108dp"
-        android:text="TextView"
+        android:text="show"
         android:textColor="@color/design_default_color_on_secondary"
         android:textSize="60dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -43,11 +44,11 @@
         android:layout_marginTop="188dp"
         android:layout_marginEnd="162dp"
         android:backgroundTint="@color/back_button"
-        android:text="@string/btn_back"
+        android:text="@string/btnBack"
         android:textColor="@color/design_default_color_background"
         android:textSize="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/TxtAnswerShow" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
