@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">db_tute5</string>
+    <string name="btn">ADD ITEM</string>
+    <string name="title">MY TODO LIST</string>
+    <style name="Base.Theme.Db_tute5" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Db_tute5" parent="Base.Theme.Db_tute5"/>
+</resources>

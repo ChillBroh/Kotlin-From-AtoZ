@@ -1,0 +1,103 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.db_tute5"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\ishar\Videos\SLIIT\3.MAD\2.Tute\Tute 5\db\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\ishar\Videos\SLIIT\3.MAD\2.Tute\Tute 5\db\app\src\main\AndroidManifest.xml
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\ishar\.gradle\caches\transforms-3\55ce0eebbe8a55033be81d4b525a86a7\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.db_tute5.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\ishar\.gradle\caches\transforms-3\55ce0eebbe8a55033be81d4b525a86a7\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\ishar\.gradle\caches\transforms-3\55ce0eebbe8a55033be81d4b525a86a7\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.db_tute5.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\ishar\.gradle\caches\transforms-3\55ce0eebbe8a55033be81d4b525a86a7\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\ishar\.gradle\caches\transforms-3\55ce0eebbe8a55033be81d4b525a86a7\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Users\ishar\Videos\SLIIT\3.MAD\2.Tute\Tute 5\db\app\src\main\AndroidManifest.xml:5:5-29:19
+18        android:allowBackup="true"
+18-->C:\Users\ishar\Videos\SLIIT\3.MAD\2.Tute\Tute 5\db\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] C:\Users\ishar\.gradle\caches\transforms-3\55ce0eebbe8a55033be81d4b525a86a7\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->C:\Users\ishar\Videos\SLIIT\3.MAD\2.Tute\Tute 5\db\app\src\main\AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->C:\Users\ishar\Videos\SLIIT\3.MAD\2.Tute\Tute 5\db\app\src\main\AndroidManifest.xml:8:9-54
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\Users\ishar\Videos\SLIIT\3.MAD\2.Tute\Tute 5\db\app\src\main\AndroidManifest.xml:9:9-43
+25        android:label="@string/app_name"
+25-->C:\Users\ishar\Videos\SLIIT\3.MAD\2.Tute\Tute 5\db\app\src\main\AndroidManifest.xml:10:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->C:\Users\ishar\Videos\SLIIT\3.MAD\2.Tute\Tute 5\db\app\src\main\AndroidManifest.xml:11:9-54
+27        android:supportsRtl="true"
+27-->C:\Users\ishar\Videos\SLIIT\3.MAD\2.Tute\Tute 5\db\app\src\main\AndroidManifest.xml:12:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.Db_tute5" >
+29-->C:\Users\ishar\Videos\SLIIT\3.MAD\2.Tute\Tute 5\db\app\src\main\AndroidManifest.xml:13:9-46
+30        <activity
+30-->C:\Users\ishar\Videos\SLIIT\3.MAD\2.Tute\Tute 5\db\app\src\main\AndroidManifest.xml:15:9-23:20
+31            android:name="com.example.db_tute5.MainActivity2"
+31-->C:\Users\ishar\Videos\SLIIT\3.MAD\2.Tute\Tute 5\db\app\src\main\AndroidManifest.xml:16:13-42
+32            android:exported="true" >
+32-->C:\Users\ishar\Videos\SLIIT\3.MAD\2.Tute\Tute 5\db\app\src\main\AndroidManifest.xml:17:13-36
+33            <intent-filter>
+33-->C:\Users\ishar\Videos\SLIIT\3.MAD\2.Tute\Tute 5\db\app\src\main\AndroidManifest.xml:18:9-22:25
+34                <action android:name="android.intent.action.MAIN" />
+34-->C:\Users\ishar\Videos\SLIIT\3.MAD\2.Tute\Tute 5\db\app\src\main\AndroidManifest.xml:19:13-65
+34-->C:\Users\ishar\Videos\SLIIT\3.MAD\2.Tute\Tute 5\db\app\src\main\AndroidManifest.xml:19:21-62
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->C:\Users\ishar\Videos\SLIIT\3.MAD\2.Tute\Tute 5\db\app\src\main\AndroidManifest.xml:21:13-73
+36-->C:\Users\ishar\Videos\SLIIT\3.MAD\2.Tute\Tute 5\db\app\src\main\AndroidManifest.xml:21:23-70
+37            </intent-filter>
+38        </activity>
+39        <activity
+39-->C:\Users\ishar\Videos\SLIIT\3.MAD\2.Tute\Tute 5\db\app\src\main\AndroidManifest.xml:24:9-26:39
+40            android:name="com.example.db_tute5.MainActivity"
+40-->C:\Users\ishar\Videos\SLIIT\3.MAD\2.Tute\Tute 5\db\app\src\main\AndroidManifest.xml:25:13-41
+41            android:exported="false" />
+41-->C:\Users\ishar\Videos\SLIIT\3.MAD\2.Tute\Tute 5\db\app\src\main\AndroidManifest.xml:26:13-37
+42
+43        <service
+43-->[androidx.room:room-runtime:2.5.0] C:\Users\ishar\.gradle\caches\transforms-3\54a9a536c6d47b7e9e3f61902e12d4ad\transformed\room-runtime-2.5.0\AndroidManifest.xml:24:9-28:63
+44            android:name="androidx.room.MultiInstanceInvalidationService"
+44-->[androidx.room:room-runtime:2.5.0] C:\Users\ishar\.gradle\caches\transforms-3\54a9a536c6d47b7e9e3f61902e12d4ad\transformed\room-runtime-2.5.0\AndroidManifest.xml:25:13-74
+45            android:directBootAware="true"
+45-->[androidx.room:room-runtime:2.5.0] C:\Users\ishar\.gradle\caches\transforms-3\54a9a536c6d47b7e9e3f61902e12d4ad\transformed\room-runtime-2.5.0\AndroidManifest.xml:26:13-43
+46            android:exported="false" />
+46-->[androidx.room:room-runtime:2.5.0] C:\Users\ishar\.gradle\caches\transforms-3\54a9a536c6d47b7e9e3f61902e12d4ad\transformed\room-runtime-2.5.0\AndroidManifest.xml:27:13-37
+47
+48        <provider
+48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ishar\.gradle\caches\transforms-3\4489033787a152d1ed2ed20b0293b2cb\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+49            android:name="androidx.startup.InitializationProvider"
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ishar\.gradle\caches\transforms-3\4489033787a152d1ed2ed20b0293b2cb\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+50            android:authorities="com.example.db_tute5.androidx-startup"
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ishar\.gradle\caches\transforms-3\4489033787a152d1ed2ed20b0293b2cb\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+51            android:exported="false" >
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ishar\.gradle\caches\transforms-3\4489033787a152d1ed2ed20b0293b2cb\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+52            <meta-data
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ishar\.gradle\caches\transforms-3\4489033787a152d1ed2ed20b0293b2cb\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+53                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ishar\.gradle\caches\transforms-3\4489033787a152d1ed2ed20b0293b2cb\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+54                android:value="androidx.startup" />
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ishar\.gradle\caches\transforms-3\4489033787a152d1ed2ed20b0293b2cb\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+55            <meta-data
+55-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ishar\.gradle\caches\transforms-3\0521f07717581cdc27f649543e97f3ce\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+56                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+56-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ishar\.gradle\caches\transforms-3\0521f07717581cdc27f649543e97f3ce\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+57                android:value="androidx.startup" />
+57-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ishar\.gradle\caches\transforms-3\0521f07717581cdc27f649543e97f3ce\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+58        </provider>
+59    </application>
+60
+61</manifest>
