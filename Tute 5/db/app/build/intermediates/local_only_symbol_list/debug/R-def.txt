@@ -1,0 +1,26 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable baseline_delete_forever_24
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btnAddTodo
+id cbTodo
+id ivDelete
+id rvTodoList
+id todo_row_item
+id tvCount
+id tvTitle
+layout activity_main
+layout activity_main2
+layout view_item
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string btn
+string title
+style Base.Theme.Db_tute5
+style Theme.Db_tute5
+xml backup_rules
+xml data_extraction_rules
