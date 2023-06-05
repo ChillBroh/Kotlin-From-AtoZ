@@ -1,0 +1,78 @@
+Index: .idea/workspace.xml
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -10,25 +10,14 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="3a93ee3e-1d33-4058-affe-823fc07aa299" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/db_tute5/MainActivity2.kt" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/db_tute5/adapters/TodoAdapter.kt" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/db_tute5/database/TodoDatabase.kt" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/db_tute5/database/daos/TodoDao.kt" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/db_tute5/database/entities/Todo.kt" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/db_tute5/database/repositories/TodoRepository.kt" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/baseline_delete_forever_24.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/view_item.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
+-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\ishar\.android\avd\Pixel_5_API_33.avd]" />
++  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\ishar\.android\avd\Pixel_3a_API_33.avd]" />
+   <component name="ExternalProjectsData">
+     <projectState path="$PROJECT_DIR$">
+       <ProjectState />
+@@ -47,9 +36,6 @@
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+   </component>
+-  <component name="HighlightingSettingsPerFile">
+-    <setting file="file://$PROJECT_DIR$/app/src/main/java/com/example/db_tute5/MainActivity2.kt" root0="SKIP_INSPECTION" />
+-  </component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+   </component>
+@@ -57,7 +43,7 @@
+     <option name="selectedTabId" value="CurrentFile" />
+   </component>
+   <component name="ProjectId" id="2QeDTRdIiZv1wY8PxdOO2aq4FAz" />
+-  <component name="ProjectLevelVcsManager">
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+     <ConfirmationsSetting value="2" id="Add" />
+   </component>
+   <component name="ProjectViewState">
+Index: ../tute_5/.idea/gradle.xml
+===================================================================
+diff --git a/../tute_5/.idea/gradle.xml b/../tute_5/.idea/gradle.xml
+--- a/../tute_5/.idea/gradle.xml	
++++ b/../tute_5/.idea/gradle.xml	
+@@ -1,5 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="GradleMigrationSettings" migrationVersion="1" />
+   <component name="GradleSettings">
+     <option name="linkedExternalProjectsSettings">
+       <GradleProjectSettings>
+Index: ../tute_5/.idea/misc.xml
+===================================================================
+diff --git a/../tute_5/.idea/misc.xml b/../tute_5/.idea/misc.xml
+--- a/../tute_5/.idea/misc.xml	
++++ b/../tute_5/.idea/misc.xml	
+@@ -1,7 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ExternalStorageConfigurationManager" enabled="true" />
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/build/classes" />
+   </component>
+   <component name="ProjectType">

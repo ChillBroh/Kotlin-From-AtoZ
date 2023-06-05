@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Kotlin_Room</string>
+    <string name="title">User Data</string>
+    <string name="fName">First Name</string>
+    <string name="lName">Last Name</string>
+    <string name="tvID">Enter ID</string>
+    <string name="tvName">Enter Your Name Here</string>
+    <string name="add">Add User</string>
+    <string name="update">Read User</string>
+    <string name="searchName">Search By Name</string>
+    <string name="searchID">Search By ID</string>
+    <string name="search">Search</string>
+    <string name="delete">Delete</string>
+</resources>
