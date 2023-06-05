@@ -1,0 +1,75 @@
+var intent = Intent(this,activity::Class.java)
+startActivity(intent)
+
+intent.putExtras("Key",value)
+intent.getExtras("key)
+
+
+Adapter
+
+class MyAdapter(private val dataList: List<String>) : RecyclerView.Adapter<MyViewHolder>() {
+class MyViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+ // Define references to the views in the item layout
+ val textView: TextView = itemView.findViewById(R.id.rowTextView)
+}
+ override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
+ // Inflate the item layout and create a ViewHolder
+ val itemView = LayoutInflater.from(parent.context).inflate(R.layout.item_layout, parent, false)
+ return MyViewHolder(itemView)
+ }
+ override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
+ // Bind data to the views in each item
+ val data = dataList[position]
+ holder.textView.text = data
+ }
+ override fun getItemCount(): Int {
+ // Return the number of items in the data list
+ return dataList.size
+ }
+}
+
+val recyclerView: RecyclerView = findViewById(R.id.recyclerView)
+val data: List<String> = getData() // Replace with your data source
+val adapter = MyAdapter(data)
+recyclerView.adapter = adapter
+recyclerView.layoutManager = LinearLayoutManager(this)
+
+sqlite
+
+@Entity
+data class User(
+ @PrimaryKey val uid: Int,
+ @ColumnInfo(name = "first_name") val firstName: String?,
+ @ColumnInfo(name = "last_name") val lastName: String?
+)
+
+
+@Dao
+interface UserDao {
+ @Query("SELECT * FROM user")
+ fun getAll(): List<User>
+ @Query("SELECT * FROM user WHERE uid IN (:userIds)")
+ fun loadAllByIds(userIds: IntArray): List<User>
+ @Query("SELECT * FROM user WHERE first_name LIKE :first AND " +
+ "last_name LIKE :last LIMIT 1")
+ fun findByName(first: String, last: String): User
+}
+
+@Database(entities = [User::class], version = 1)
+abstract class AppDatabase : RoomDatabase() {
+ abstract fun userDao(): UserDao
+}
+
+val db = Room.databaseBuilder( applicationContext,AppDatabase::class.java, "database-name").build()
+val userDao = db.userDao()
+val users: List<User> = userDao.getAll()
+
+frag
+
+val btnUser:Button = findViewById(R.id.imgUser)
+ btnUser.setOnClickListener() {
+ supportFragmentManager.beginTransaction().apply {
+ replace(R.id.fragmentContainerView, UserFragment())
+ commit()
+ }
+ }
